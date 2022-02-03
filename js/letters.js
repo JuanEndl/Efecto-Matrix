@@ -21,7 +21,7 @@ let position = Array(300).join(0).split('')
 // funcion 
 
 function initial_matrix() {  
-    ctx.fillStyle = 'rgba(50, 30, 1, 0.09)'
+    ctx.fillStyle = 'rgba(0, 30, 1, 0.09)'
 	ctx.fillRect(0, 0, width, height)
 	ctx.fillStyle = '#37cc05'
     ctx.Font = '11pt arial'
